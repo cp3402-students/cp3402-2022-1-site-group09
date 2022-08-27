@@ -1,3 +1,9 @@
-# cp3402-2022-1-site-group09
+# CP3402 Assignment 2 - Group 9
+
 CMS Wordpress site by Group 9 
-cp3402-2022-1-site-group09 created by GitHub Classroom
+**Team**
+- Yan Shin
+- Zarni Tun
+- Honey Zin
+- Shin Naing Thant
+

@@ -1,8 +1,8 @@
 /*!
 Theme Name: cmsgroup9
-Theme URI: http://underscores.me/
-Author: Underscores.me
-Author URI: http://underscores.me/
+Theme URI: http://cmsgroup9.me/
+Author: cmsgroup9
+Author URI: http://cmsgroup9.me/
 Description: Description
 Version: 1.0.0
 Tested up to: 5.4
@@ -998,6 +998,12 @@ div.container {
 	padding: 30px 0 0 0;
 }
 
+.site-header h1 a:link,
+.site-header h1 a:visited {
+	text-decoration: none;
+	color: rgb(25,132,70);
+}
+
 
 
 /* footer */
@@ -1006,6 +1012,8 @@ div.container {
 	border-top: 2px solid #999;
 	text-align: center;
 	font-size: 84%;
+	background: lightgreen;
+	padding: 20px;
 }
 
 /*styles */
@@ -1043,5 +1051,20 @@ p {
 	margin: 0 0 1em 0;
 }
 
+/* Main Column */
+.main-column {
+	width: 66%;
+	float: left;
+}
 
+/* Side Column */
+.side-column {
+	width: 30%;
+	float: right;
+}
+
+/* Clearfix */
+.clearfix:before, .clearfix:after { content: ""; display: table; }
+.clearfix:after { clear: both; }
+.clearfix { *zoom: 1; }
 

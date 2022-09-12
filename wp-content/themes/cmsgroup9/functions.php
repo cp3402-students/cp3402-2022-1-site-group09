@@ -122,13 +122,21 @@ add_action( 'after_setup_theme', 'cmsgroup9_content_width', 0 );
 function cmsgroup9_widgets_init() {
 	register_sidebar(
 		array(
-			'name'          => esc_html__( 'Sidebar', 'cmsgroup9' ),
-			'id'            => 'sidebar-1',
-			'description'   => esc_html__( 'Add widgets here.', 'cmsgroup9' ),
-			'before_widget' => '<section id="%1$s" class="widget %2$s">',
-			'after_widget'  => '</section>',
-			'before_title'  => '<h2 class="widget-title">',
-			'after_title'   => '</h2>',
+			'name'          => 'Sidebar',
+			'id'            => 'sidebar1',
+			'before_widget' => '<div class = "widget-item">',
+			'after_widget' => '</div>'
+
+			
+		)
+	);
+	register_sidebar(
+		array(
+			'name'          => 'footer Area 1',
+			'id'            => 'footer1',
+			'before_widget' => '<div class = "widget-item">',
+			'after_widget' => '</div>'
+			
 		)
 	);
 }

@@ -1051,17 +1051,17 @@ p {
 	margin: 0 0 1em 0;
 }
 
-/* Main Column */
-.main-column {
+/* Main Column   if you want a sidebar*/
+/* .main-column {
 	width: 66%;
 	float: left;
-}
+} */
 
 /* Side Column */
-.side-column {
+/* .side-column {
 	width: 30%;
 	float: right;
-}
+} */
 
 /* Clearfix */
 .clearfix:before, .clearfix:after { content: ""; display: table; }

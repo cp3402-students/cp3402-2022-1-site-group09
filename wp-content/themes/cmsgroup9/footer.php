@@ -7,7 +7,7 @@
 	 *
 	 * @link https://developer.wordpress.org/themes/basics/template-files/#template-partials
 	 *
-	 * @package cmsgroup9
+	 * @package baizonn
 	 */
 
 	?>
@@ -51,10 +51,10 @@
 			</div><!-- /footer-widgets -->
 			
 			<div class="site-info">
-				<a href="<?php echo esc_url( __( 'https://wordpress.org/', 'cmsgroup9' ) ); ?>">
+				<a href="<?php echo esc_url( __( 'https://wordpress.org/', 'baizonn' ) ); ?>">
 					<?php
 					/* translators: %s: CMS name, i.e. WordPress. */
-					printf( esc_html__( 'Theme by %s', 'cmsgroup9' ), 'Baizonn' );
+					printf( esc_html__( 'Theme by %s', 'baizonn' ), 'Baizonn' );
 					?>
 				</a>
 				<span class="sep"> | </span>

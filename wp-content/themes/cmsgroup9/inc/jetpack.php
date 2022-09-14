@@ -4,7 +4,7 @@
  *
  * @link https://jetpack.com/
  *
- * @package cmsgroup9
+ * @package baizonn
  */
 
 /**
@@ -14,13 +14,13 @@
  * See: https://jetpack.com/support/responsive-videos/
  * See: https://jetpack.com/support/content-options/
  */
-function cmsgroup9_jetpack_setup() {
+function baizonn_jetpack_setup() {
 	// Add theme support for Infinite Scroll.
 	add_theme_support(
 		'infinite-scroll',
 		array(
 			'container' => 'main',
-			'render'    => 'cmsgroup9_infinite_scroll_render',
+			'render'    => 'baizonn_infinite_scroll_render',
 			'footer'    => 'page',
 		)
 	);
@@ -33,7 +33,7 @@ function cmsgroup9_jetpack_setup() {
 		'jetpack-content-options',
 		array(
 			'post-details' => array(
-				'stylesheet' => 'cmsgroup9-style',
+				'stylesheet' => 'baizonn-style',
 				'date'       => '.posted-on',
 				'categories' => '.cat-links',
 				'tags'       => '.tags-links',
@@ -48,13 +48,13 @@ function cmsgroup9_jetpack_setup() {
 		)
 	);
 }
-add_action( 'after_setup_theme', 'cmsgroup9_jetpack_setup' );
+add_action( 'after_setup_theme', 'baizonn_jetpack_setup' );
 
-if ( ! function_exists( 'cmsgroup9_infinite_scroll_render' ) ) :
+if ( ! function_exists( 'baizonn_infinite_scroll_render' ) ) :
 	/**
 	 * Custom render function for Infinite Scroll.
 	 */
-	function cmsgroup9_infinite_scroll_render() {
+	function baizonn_infinite_scroll_render() {
 		while ( have_posts() ) {
 			the_post();
 			if ( is_search() ) :

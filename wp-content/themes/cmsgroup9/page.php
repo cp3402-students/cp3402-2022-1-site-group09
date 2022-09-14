@@ -9,7 +9,7 @@
  *
  * @link https://developer.wordpress.org/themes/basics/template-hierarchy/
  *
- * @package cmsgroup9
+ * @package baizonn
  */
 
 get_header();

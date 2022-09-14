@@ -1,10 +1,10 @@
 <?php
 /**
- * cmsgroup9 functions and definitions
+ * baizonn functions and definitions
  *
  * @link https://developer.wordpress.org/themes/basics/theme-functions/
  *
- * @package cmsgroup9
+ * @package baizonn
  */
 
 if ( ! defined( '_S_VERSION' ) ) {
@@ -19,14 +19,14 @@ if ( ! defined( '_S_VERSION' ) ) {
  * runs before the init hook. The init hook is too late for some features, such
  * as indicating support for post thumbnails.
  */
-function cmsgroup9_setup() {
+function baizonn_setup() {
 	/*
 		* Make theme available for translation.
 		* Translations can be filed in the /languages/ directory.
-		* If you're building a theme based on cmsgroup9, use a find and replace
-		* to change 'cmsgroup9' to the name of your theme in all the template files.
+		* If you're building a theme based on baizonn, use a find and replace
+		* to change 'baizonn' to the name of your theme in all the template files.
 		*/
-	load_theme_textdomain( 'cmsgroup9', get_template_directory() . '/languages' );
+	load_theme_textdomain( 'baizonn', get_template_directory() . '/languages' );
 
 	// Add default posts and comments RSS feed links to head.
 	add_theme_support( 'automatic-feed-links' );
@@ -49,7 +49,7 @@ function cmsgroup9_setup() {
 	// This theme uses wp_nav_menu() in one location.
 	register_nav_menus(
 		array(
-			'menu-1' => esc_html__( 'Primary', 'cmsgroup9' ),
+			'menu-1' => esc_html__( 'Primary', 'baizonn' ),
 		)
 	);
 
@@ -74,7 +74,7 @@ function cmsgroup9_setup() {
 	add_theme_support(
 		'custom-background',
 		apply_filters(
-			'cmsgroup9_custom_background_args',
+			'baizonn_custom_background_args',
 			array(
 				'default-color' => 'ffffff',
 				'default-image' => '',
@@ -100,7 +100,7 @@ function cmsgroup9_setup() {
 		)
 	);
 }
-add_action( 'after_setup_theme', 'cmsgroup9_setup' );
+add_action( 'after_setup_theme', 'baizonn_setup' );
 
 /**
  * Set the content width in pixels, based on the theme's design and stylesheet.
@@ -109,17 +109,17 @@ add_action( 'after_setup_theme', 'cmsgroup9_setup' );
  *
  * @global int $content_width
  */
-function cmsgroup9_content_width() {
-	$GLOBALS['content_width'] = apply_filters( 'cmsgroup9_content_width', 640 );
+function baizonn_content_width() {
+	$GLOBALS['content_width'] = apply_filters( 'baizonn_content_width', 640 );
 }
-add_action( 'after_setup_theme', 'cmsgroup9_content_width', 0 );
+add_action( 'after_setup_theme', 'baizonn_content_width', 0 );
 
 /**
  * Register widget area.
  *
  * @link https://developer.wordpress.org/themes/functionality/sidebars/#registering-a-sidebar
  */
-function cmsgroup9_widgets_init() {
+function baizonn_widgets_init() {
 	register_sidebar(
 		array(
 			'name'          => 'Sidebar',
@@ -166,22 +166,22 @@ function cmsgroup9_widgets_init() {
 		'after_title' => '</h2>',
 	));
 }
-add_action( 'widgets_init', 'cmsgroup9_widgets_init' );
+add_action( 'widgets_init', 'baizonn_widgets_init' );
 
 /**
  * Enqueue scripts and styles.
  */
-function cmsgroup9_scripts() {
-	wp_enqueue_style( 'cmsgroup9-style', get_stylesheet_uri(), array(), _S_VERSION );
-	wp_style_add_data( 'cmsgroup9-style', 'rtl', 'replace' );
+function baizonn_scripts() {
+	wp_enqueue_style( 'baizonn-style', get_stylesheet_uri(), array(), _S_VERSION );
+	wp_style_add_data( 'baizonn-style', 'rtl', 'replace' );
 
-	wp_enqueue_script( 'cmsgroup9-navigation', get_template_directory_uri() . '/js/navigation.js', array(), _S_VERSION, true );
+	wp_enqueue_script( 'baizonn-navigation', get_template_directory_uri() . '/js/navigation.js', array(), _S_VERSION, true );
 
 	if ( is_singular() && comments_open() && get_option( 'thread_comments' ) ) {
 		wp_enqueue_script( 'comment-reply' );
 	}
 }
-add_action( 'wp_enqueue_scripts', 'cmsgroup9_scripts' );
+add_action( 'wp_enqueue_scripts', 'baizonn_scripts' );
 
 /**
  * Implement the Custom Header feature.

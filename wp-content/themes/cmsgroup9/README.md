@@ -1,9 +1,9 @@
-[![Build Status](https://travis-ci.org/Automattic/cmsgroup9.svg?branch=master)](https://travis-ci.org/Automattic/cmsgroup9)
+[![Build Status](https://travis-ci.org/Automattic/baizonn.svg?branch=master)](https://travis-ci.org/Automattic/baizonn)
 
-cmsgroup9
+baizonn
 ===
 
-Hi. I'm a starter theme called `cmsgroup9`, if you like. I'm a theme meant for hacking so don't use me as a Parent Theme. Instead try turning me into the next, most awesome, WordPress theme out there. That's what I'm here for.
+Hi. I'm a starter theme called `baizonn`, if you like. I'm a theme meant for hacking so don't use me as a Parent Theme. Instead try turning me into the next, most awesome, WordPress theme out there. That's what I'm here for.
 
 My ultra-minimal CSS might make me look like theme tartare but that means less stuff to get in your way when you're designing your awesome theme. Here are some of the other more interesting things you'll find here:
 
@@ -24,7 +24,7 @@ Installation
 
 ### Requirements
 
-`cmsgroup9` requires the following dependencies:
+`baizonn` requires the following dependencies:
 
 - [Node.js](https://nodejs.org/)
 - [Composer](https://getcomposer.org/)
@@ -33,18 +33,18 @@ Installation
 
 Clone or download this repository, change its name to something else (like, say, `megatherium-is-awesome`), and then you'll need to do a six-step find and replace on the name in all the templates.
 
-1. Search for `'cmsgroup9'` (inside single quotations) to capture the text domain and replace with: `'megatherium-is-awesome'`.
-2. Search for `cmsgroup9_` to capture all the functions names and replace with: `megatherium_is_awesome_`.
-3. Search for `Text Domain: cmsgroup9` in `style.css` and replace with: `Text Domain: megatherium-is-awesome`.
-4. Search for <code>&nbsp;cmsgroup9</code> (with a space before it) to capture DocBlocks and replace with: <code>&nbsp;Megatherium_is_Awesome</code>.
-5. Search for `cmsgroup9-` to capture prefixed handles and replace with: `megatherium-is-awesome-`.
-6. Search for `cmsgroup9_` (in uppercase) to capture constants and replace with: `MEGATHERIUM_IS_AWESOME_`.
+1. Search for `'baizonn'` (inside single quotations) to capture the text domain and replace with: `'megatherium-is-awesome'`.
+2. Search for `baizonn_` to capture all the functions names and replace with: `megatherium_is_awesome_`.
+3. Search for `Text Domain: baizonn` in `style.css` and replace with: `Text Domain: megatherium-is-awesome`.
+4. Search for <code>&nbsp;baizonn</code> (with a space before it) to capture DocBlocks and replace with: <code>&nbsp;Megatherium_is_Awesome</code>.
+5. Search for `baizonn-` to capture prefixed handles and replace with: `megatherium-is-awesome-`.
+6. Search for `baizonn_` (in uppercase) to capture constants and replace with: `MEGATHERIUM_IS_AWESOME_`.
 
-Then, update the stylesheet header in `style.css`, the links in `footer.php` with your own information and rename `cmsgroup9.pot` from `languages` folder to use the theme's slug. Next, update or delete this readme.
+Then, update the stylesheet header in `style.css`, the links in `footer.php` with your own information and rename `baizonn.pot` from `languages` folder to use the theme's slug. Next, update or delete this readme.
 
 ### Setup
 
-To start using all the tools that come with `cmsgroup9`  you need to install the necessary Node.js and Composer dependencies :
+To start using all the tools that come with `baizonn`  you need to install the necessary Node.js and Composer dependencies :
 
 ```sh
 $ composer install
@@ -53,7 +53,7 @@ $ npm install
 
 ### Available CLI commands
 
-`cmsgroup9` comes packed with CLI commands tailored for WordPress theme development :
+`baizonn` comes packed with CLI commands tailored for WordPress theme development :
 
 - `composer lint:wpcs` : checks all PHP files against [PHP Coding Standards](https://developer.wordpress.org/coding-standards/wordpress-coding-standards/php/).
 - `composer lint:php` : checks all PHP files for syntax errors.

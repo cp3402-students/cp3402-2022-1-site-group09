@@ -54,7 +54,7 @@
 				<a href="<?php echo esc_url( __( 'https://wordpress.org/', 'cmsgroup9' ) ); ?>">
 					<?php
 					/* translators: %s: CMS name, i.e. WordPress. */
-					printf( esc_html__( 'Proudly powered by %s', 'cmsgroup9' ), 'WordPress' );
+					printf( esc_html__( 'Theme by %s', 'cmsgroup9' ), 'Baizonn' );
 					?>
 				</a>
 				<span class="sep"> | </span>

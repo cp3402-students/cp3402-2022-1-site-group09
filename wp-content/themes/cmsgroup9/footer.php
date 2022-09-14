@@ -1,3 +1,4 @@
+</div><!-- container -->
 	<?php
 	/**
 	 * The template for displaying the footer
@@ -10,12 +11,45 @@
 	 */
 
 	?>
-
+		
 		<footer id="colophon" class="site-footer">
-			<div class='footer-widgets'><!--footer-widgets-->
-				<?php dynamic_sidebar('footer1'); ?>
+			
+			<div class="footer-widgets clearfix">
+				
+				<?php if (is_active_sidebar('footer1')) : ?>
+					
+					<div class="footer-widget-area">
+						<?php dynamic_sidebar('footer1'); ?>
+					</div>
 
-			</div>
+				<?php endif; ?>
+				
+				<?php if (is_active_sidebar('footer2')) : ?>
+					
+					<div class="footer-widget-area">
+						<?php dynamic_sidebar('footer2'); ?>
+					</div>
+
+				<?php endif; ?>
+				
+				<?php if (is_active_sidebar('footer3')) : ?>
+					
+					<div class="footer-widget-area">
+						<?php dynamic_sidebar('footer3'); ?>
+					</div>
+
+				<?php endif; ?>
+
+				<?php if (is_active_sidebar('footer4')) : ?>
+				
+				<div class="footer-widget-area">
+					<?php dynamic_sidebar('footer4'); ?>
+				</div>
+
+				<?php endif; ?>
+				
+			</div><!-- /footer-widgets -->
+			
 			<div class="site-info">
 				<a href="<?php echo esc_url( __( 'https://wordpress.org/', 'cmsgroup9' ) ); ?>">
 					<?php
@@ -30,7 +64,7 @@
 			</div><!-- .site-info -->
 		</footer><!-- #colophon -->
 	</div><!-- #page -->
-</div><!-- container -->
+
 <?php wp_footer(); ?>
 
 </body>

@@ -642,7 +642,7 @@ textarea {
 # Layouts
 --------------------------------------------------------------*/
 div.container {
-	max-width: 1200px;
+	max-width: 1300px;
 	margin: 0 auto;
 	padding-left: 20px;
 	padding-right: 20px;
@@ -656,6 +656,7 @@ div.container {
 .main-navigation {
 	display: block;
 	width: 100%;
+	border-bottom: 2px solid #999;
 }
 
 .main-navigation ul {
@@ -819,6 +820,7 @@ div.container {
 /* Make sure logo link wraps around logo image. */
 .custom-logo-link {
 	display: inline-block;
+	padding-bottom: 20px;
 }
 
 /* Captions
@@ -990,10 +992,9 @@ div.container {
 /* header */
 
 .site-header{
-	background: white;
+	background: lightblue;
 	width: 100%; 
 	text-align: center;
-	border-bottom: 2px solid #999;
 	margin-bottom: 20px;
 	padding: 30px 0 0 0;
 }
@@ -1036,12 +1037,12 @@ a:visited{
 
 /* navigation */
 
-.site-header nav ul li a:hover {
+.main-navigation ul li a:hover {
 	background-color: #ececec;
 }
 
-.site-header nav ul li.current-menu-item a:link,
-.site-header nav ul li.current-menu-item a:visited {
+.main-navigation ul li.current-menu-item a:link,
+.main-navigation ul li.current-menu-item a:visited {
 	background-color: #006ec3;
 	color: white;
 }
@@ -1056,3 +1057,9 @@ p {
 .clearfix:after { clear: both; }
 .clearfix { *zoom: 1; }
 
+.footer-widget-area {
+	width: 25%;
+	float: left;
+	box-sizing: border-box;
+	padding-left: 40px;
+}

@@ -26,7 +26,7 @@ Our website now has 4 pages and 0 posts.
 
 **CONTACT US**: If a user has any feedback for us, they may send it to us using the contact form on the contact us page. There is also a map included under the contact form for users to easily locate the Baizoon learning center.
 
-#Plugins used
+# Plugins used
 
 -**Map Block for Google Maps**: This plugin offers a simple user interface that allows you to add Google Maps to your WordPress site. This plugin is used to display a location on an embedded Google Maps element. We used this plugin to indicate the location of where the Baizoon Learning Center is located at. https://wordpress.org/plugins/wp-map-block/
 -**Theme check**: This plugin is an easy way to test your theme and make sure it’s up to spec with the latest theme review standards. With it, you can run all the same automated testing tools on your theme that WordPress.org uses for theme submissions. The tests are run through a simple admin menu and all results are displayed at once. This is very handy for theme developers, or anybody looking to make sure that their theme supports the latest WordPress theme standards and practices.A simple and easy way to test our theme for all the latest WordPress standards and practices. https://wordpress.org/plugins/theme-check/

@@ -23,4 +23,4 @@ The following is a list of folders in files contained in the repository and thei
 
 4.[site.md](https://github.com/cp3402-students/cp3402-2022-1-site-group09-SP52/blob/main/site.md): This site documentation gives an overview on our WordPress site, plugins, features, and how to edit the site.
 
-5.[theme.md](https://github.com/cp3402-students/cp3402-2022-1-site-group09-SP52/blob/main/theme.md): Our working documentation on the custom theme, its origin and creation, important features, and how to modify it.
+5.[theme.md](https://github.com/cp3402-students/cp3402-2022-1-site-group09-SP52/blob/main/theme.md): Our working documentation on the custom theme, its origin and creation, important features and our thinking behind the choices we made for the final website.

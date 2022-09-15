@@ -1,22 +1,22 @@
-#Add new page
+# Add new page
 
--log in to wordpress
--click Pages button in the sidebar
--Add new page
--Edit the new page
--Publish
+- log in to wordpress
+- click Pages button in the sidebar
+- Add new page
+- Edit the new page
+- Publish
 
-#Add new post
+# Add new post
 
--log in to wordpress
--click Posts button in the sidebar
--Add new post
--Edit the new post and choose category
--Publish
+- log in to wordpress
+- click Posts button in the sidebar
+- Add new post
+- Edit the new post and choose category
+- Publish
 
 Our website now has 4 pages and 0 posts.
 
-#Pages
+# Pages
 
 **HOME**: The landing page for our website is the main page and users arrive to it at the very first. The registration page and the services page have direct button connections on the current homepage. A video on algebra for beginners is also provided.
 

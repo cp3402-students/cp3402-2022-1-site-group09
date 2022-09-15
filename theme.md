@@ -10,7 +10,18 @@
   For our overall theme we went for a minimal theme that is easy on the eyes and simple to navigate- even for the least experienced technology users. The different aspects of the theme are as follows:
  
 ## Full-width layout
-For users who do not want a side bar on their page or post, we have created two layout templates: template-fullwidth.php and single-nosidebar.php. The post editor in wp-admin allows the user to easily change the template.
+  For users who do not want a side bar on their page or post, we have created two layout templates: template-fullwidth.php and single-nosidebar.php. The post editor in wp-admin allows the user to easily change the template.
+
+## Typography
+  We have used a large variety of fonts mainly chosen through a criteria of Readability > Aesthetics > Scaling. The result is well-fitting fonts for the different cases they are implemented in.
+  
+## Colors
+  Our concept in choosing the colors for the website came from just adapting to the colors of the logo of the page. We had a few colors in mind namely a pastel blue and green. However, we wanted to choose the exact colors that accentuated all the main things to make it a goal-driven website. So, we used a site called [Coolors](https://coolors.co/generate) to browse through different color palettes. 
+  We finally choose a main palette of three colors: Medium-Turquoise (4ECDC4), Midnight eagle green(1A535C) for the navigation plus sub colors and Mint cream(F7FFF7) as the background for the entire website. Thus, achieving a peaceful and calming color combination.
+
+
+
+
 
 
   

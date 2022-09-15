@@ -10,7 +10,16 @@
   For our overall theme we went for a minimal theme that is easy on the eyes and simple to navigate- even for the least experienced technology users. The different aspects of the theme are as follows:
  
 ## Full-width layout
-For users who do not want a side bar on their page or post, we have created two layout templates: template-fullwidth.php and single-nosidebar.php. The post editor in wp-admin allows the user to easily change the template.
+  For users who do not want a side bar on their page or post, we have created two layout templates: template-fullwidth.php and single-nosidebar.php. The post editor in wp-admin allows the user to easily change the template.
+
+## Typography
+  We have used a large variety of fonts mainly chosen through a criteria of Readability > Aesthetics > Scaling. The result is well-fitting fonts for the different cases they are implemented in.
+  
+
+
+
+
+
 
 
   
